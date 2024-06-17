@@ -3,10 +3,9 @@ layout: post
 title:  "Is Ai Nuts?"
 date:   2024-06-17
 author: "Androit"
-images: "/assets/images/blog/Two-hands-pink-background.jpg"
+image: "{{ site.baseurl }}/assets/images/blog/Two-hands-pink-background.jpg"
 description: "Should we worried about AI?"
 tags: ["AI","Humanity"]
-#categories: jekyll update
 ---
 ## What is this all about?
 In today’s episode we will talk about AI. Artificial intelligence. This two word phrase was unheard of 10 years back unless you were working in the field of AI. But today we have AI integrated in the mattresses that we sleep on. What exactly is AI in layman’s terms? It means humans can delegate their thinking processes to a machine that eats and breaths data in real-time. 
