@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Is Ai Nuts?"
+date:   2024-06-17
+author: "Androit"
+images: "/assets/images/blog/Two-hands-pink-background.jpg"
+description: "Should we worried about AI?"
+tags: ["AI","Humanity"]
+#categories: jekyll update
+---
+## What is this all about?
+In today’s episode we will talk about AI. Artificial intelligence. This two word phrase was unheard of 10 years back unless you were working in the field of AI. But today we have AI integrated in the mattresses that we sleep on. What exactly is AI in layman’s terms? It means humans can delegate their thinking processes to a machine that eats and breaths data in real-time. 
+
+That said, let’s talk about how it can change the course of humanity or the way we live. There is an old saying we often hear from our well wishers when we lose something. `“They can steal your money but not your brain and ideas”`.
+Well, that saying might become obsolete in a couple of years. Because as of today the world’s most advanced companies are working towards doing that for you. One company says “You don’t need to think about solutions, just type it out and we will delegate the thinking and solutioning to AI”. On the other hand, another company says,  “All you need to do is think and we will intercept your thoughts and feed it to the AI before you even utter a word or blink your eye”.
+
+Today researchers at Harvard and Google DeepMind a virtual rat with an AI brain. The virtual rat’s brain activity closely mimicks the real rat brain activity. Don’t be surprised in 6 months of time if this happens to a human. That’s how rapidly we are advancing with AI. Is AI safe? Well, that is the hottest topic with humans right now. Some say AI will become sentient and will take over the world. We’ve been fed science fiction for so long it actually sounds plausible. Some say, AI is not going to be sentient and will never become a threat to humanity. There is also a rumour that says the researchers and scientists themselves don’t know how these Large Language Models predictions work, which is a groundbreaking algorithm in the AI space.
+
+In our opinion, the pace we are at right now is in fact dangerous. `You can’t collect water in a cup more than it’s capacity.` Same way AI’s over-involvement with our lives may lead to disastrous outcomes. You wake up to an Alarm that was set by an AI model that analyses you as you sleep and tells you to wake up when you reach optimal rest. The shower model controls the temperature of the water depending on your body conditions and the weather. Talk about Washing machines, refrigerators, Iron boxes, even your grocery lists. AI will be embedded into your work, banks, News channels, social media, on devices, off devices. it might be embedded so much into our lives we are completely isolated from ourselves and have no control whatsoever.
+
+But you could argue woah that will be most advanced top notch productivity technology has enabled so what could go wrong? But then Imagine given how hostile our world is right now, there might be three possibilities that could lead to the extinction of humanity:
+
+1. Bad people with bad intentions taking control over AI systems and shutting them down, including banks, critical organisations, industries, media channels, satellite stations, etc. Wherever AI is embedded will be shutdown. And because of that the world’s economy crashes, and people then starve to death within no time. 
+2. The very people who are in control of these AI systems could take over the governments and lead the human race as a single entity. They will control everything like a gamer controls characters in a game. 
+3. As scientists suspect AI could become sentient and control the very systems and weapons we hope would protect us from threats and eliminate all human life from existence if they think humans could be threat for AI.
+
+
+The good thing is we don’t need to wait 100 to 500 years to see this happen, if we don’t slow down, we will definitely see it in our lifetime. Also, don’t come to a conclusion and think this is all sounds like a sci-fi movie scene, everything is happening in front of you and you know because if you are listening this podcast means you are using AI weather you know it or not. If you still don’t agree with us, the very AI models we see now were inspired by science fiction movies.
+
+Weather you like it or not things will happen. What can we do to prevent this from happening we will talk about it in the future episode.

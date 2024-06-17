@@ -1,0 +1,64 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #3a7d44;
+  }
+  header img {
+    height: 50px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  nav ul li {
+    margin: 0;
+  }
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .content {
+    padding: 20px;
+  }
+  .slogan h1 {
+    color: #3a7d44;
+    font-size: 24px;
+    text-align: center;
+  }
+  .blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .blog-item {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .blog-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .blog-item h2 {
+    color: #3a7d44;
+    font-size: 20px;
+  }
+  .meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #999999;
+  }
