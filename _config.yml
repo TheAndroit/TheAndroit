@@ -18,15 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Androit
-email: contact@androit.org
-description: >- # this means to ignore newlines until "baseurl:"
-  Androit is your go-to source for opportune insights and an optimized information tapestry,
-  guiding you to live better through balanced technology integration and detachment.
+title: "Androit"
+email: "contact@androit.org"
+description: "Androit is your go-to source for opportune insights and an optimized information tapestry,
+  guiding you to live better through balanced technology integration and detachment."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://theandroit.github.io/theandroit" #"https://androit.org" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: TheAndroit
-github_username:  TheAndroit
+twitter_username: "TheAndroit"
+github_username:  "TheAndroit"
 
 # Build settings
 markdown: kramdown
