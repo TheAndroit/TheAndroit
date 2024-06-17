@@ -29,10 +29,14 @@ twitter_username: TheAndroit
 github_username:  TheAndroit
 
 # Build settings
+markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
 
+minima:
+  syntax_highlighting: true
+  skin: dark
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
@@ -45,11 +49,30 @@ plugins:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+   - Gemfile
+   - Gemfile.lock
+   - node_modules/
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
    - project_structure.text
+
+include:
+  - _pages
+  - _posts
+  - assets
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Default Author"
+
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+  
