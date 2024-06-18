@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <div class="post-image" style="background-image: url('{{ page.image }}');">
+      <div class="post-overlay">
+        <h1>{{ page.title }}</h1>
+        <p>by {{ page.author }} on {{ page.date | date: "%B %d, %Y" }} - {{ page.read_time }} read</p>
+        <p>Tags: {{ page.tags | join: ", " }}</p>
+      </div>
+    </div>
+  </header>
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

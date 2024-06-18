@@ -3,7 +3,7 @@ layout: post
 title:  "Is Ai Nuts?"
 date:   2024-06-17
 author: "Androit"
-image: "{{ site.baseurl }}/assets/images/blog/Two-hands-pink-background.jpg"
+image: "/assets/images/blog/Two-hands-pink-background.jpg"
 description: "Should we worried about AI?"
 tags: ["AI","Humanity"]
 ---

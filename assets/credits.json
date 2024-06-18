@@ -1,7 +1,16 @@
-{
-    "credits": [
-        "Resource 1",
-        "Photo by Igor Omilaev on Unsplash",
-        "Resource 3"
-    ]
-}
+[
+    {
+      "item_name": "Example Image",
+      "item_link": "https://example.com/image",
+      "item_type": "Image",
+      "owner_name": "John Doe",
+      "owner_link": "https://example.com/johndoe"
+    },
+    {
+      "item_name": "Example Video",
+      "item_link": "https://example.com/video",
+      "item_type": "Video",
+      "owner_name": "Jane Smith",
+      "owner_link": "https://example.com/janesmith"
+    }
+  ]

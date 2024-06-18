@@ -1,19 +1,29 @@
 ---
-layout: page
+layout: default
 title: "Credits"
 permalink: /credits/
 ---
-<h1>Credits</h1>
-<ul id="credits-list"></ul>
+<div class="credits">
+  <h1>Credits</h1>
+  <ul id="credits-list"></ul>
+</div>
 
 <script>
-    fetch('/assets/credits.json')
+    fetch('{{ site.baseurl }}/assets/credits.json')
     .then(response => response.json())
     .then(data => {
         const creditsList = document.getElementById('credits-list');
-        data.credits.forEach(credit => {
+        data.forEach(credit => {
             const li = document.createElement('li');
-            li.textContent = credit;
+            const itemLink = document.createElement('a');
+            itemLink.href = credit.item_link;
+            itemLink.textContent = credit.item_name;
+            itemLink.target = "_blank";
+            const ownerLink = document.createElement('a');
+            ownerLink.href = credit.owner_link;
+            ownerLink.textContent = credit.owner_name;
+            ownerLink.target = "_blank";
+            li.innerHTML = `${itemLink.outerHTML} - ${credit.item_type} by ${ownerLink.outerHTML}`;
             creditsList.appendChild(li);
         });
     });

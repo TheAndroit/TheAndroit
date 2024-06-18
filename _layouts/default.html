@@ -2,24 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 </head>
 <body>
-  <header>
-    <img src="{{ site.baseurl }}/assets/images/Androit-logo-dark.png" alt="Androit Logo">
-    <nav>
-      <ul>
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about">About Us</a></li>
-        <li><a href="{{ site.baseurl }}/credits">Credits</a></li>
-      </ul>
-    </nav>
+  <header role="banner">
+    <div class="container">
+      <a href="{{ site.baseurl }}/" class="logo">
+        <img src="{{ site.baseurl }}/assets/images/Androit-logo-dark.png" alt="Androit Logo" height="50">
+      </a>
+      <nav role="navigation" aria-label="Main menu">
+        <ul>
+          <li><a href="{{ site.baseurl }}/">Home</a></li>
+          <li><a href="{{ site.baseurl }}/about">About Us</a></li>
+          <li><a href="{{ site.baseurl }}/credits">Credits</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <div class="content">
+  <main role="main" class="content">
     {{ content }}
-  </div>
-  <footer>
+  </main>
+  <footer role="contentinfo">
     <p>&copy; {{ site.time | date: "%Y" }} Androit. All rights reserved.</p>
   </footer>
 </body>
